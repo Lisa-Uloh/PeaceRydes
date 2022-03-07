@@ -1,6 +1,10 @@
 /* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
 
-
+.body
+{
+  overflow-x: hidden;
+  max-width: 100%;
+}
 .new-main {
   display: flex;
   flex-direction: column;
@@ -44,6 +48,10 @@
   margin: 10px auto; 
 }
   @media (max-width: 1440px) {
+    .body
+    {
+      overflow-x: hidden;
+    }
     .new-section1__flex1.layout {
      width: 1440px;} 
      .me-auto {
@@ -99,10 +107,18 @@
     .new-section1__flex1.layout {
       width: 87.52%; } }
   @media (max-width: 1199px) {
+    html
+    {
+      overflow-x: hidden;
+    }
     .new-section1__flex1.layout {
       width: 90.34%;
       margin: 9px auto; } }
   @media (max-width: 991px) {
+    html
+    {
+      overflow-x: hidden;
+    }
     .new-section1__flex1.layout {
       width: 92.58%;
       margin: 7px auto; } }
